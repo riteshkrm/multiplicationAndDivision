@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-
+  </head>
+  <body>
+    <form>
+      1st Number : <input type="text" id="firstNumber" /><br />
+      2nd Number: <input type="text" id="secondNumber" /><br />
+      <input type="button" onClick="multiplyBy()" value="Multiply" />
+      <input type="button" onClick="divideBy()" value="Divide" />
+    </form>
+    <p>
+      The Result is : <br />
+      <span id="result"></span>
+    </p>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
